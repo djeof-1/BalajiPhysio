@@ -1,7 +1,6 @@
 <?php
 	$test=1;
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>	
@@ -123,18 +122,19 @@
 			padding: 5%;
 		}
 		</style>
-		<title>Home | Balaji Physiotherapy</title>
+		<title>Home | Balaji Physiotherapy Clinic</title>
 </head>
 <body>
-	<div class="nav navbar-inverse" id="navbar">	
+	<!-- <body data-spy="scroll" data-target=".navbar" data-offset="50"> -->
+	<div class="nav navbar-transparent navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="197" id="navbar">	
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<img src="http://i752.photobucket.com/albums/xx163/mobile2/2432/religious/balaji/balaji07.jpg" width=50px height=50px>
 			</div>
 			<div>
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#"><span class="glyphicon glyphicon-home"> Home</span> </a></li>
-					<li><a href="#"><span class="glyphicon glyphicon-info-sign"> About Us</span></a></li>
+					<li><a href="Aboutus.php"><span class="glyphicon glyphicon-info-sign"> About Us</span></a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-education"> Areas of Expertise</span></a></li>
 					<li><a href="#"><span class="glyphicon glyphicon-phone"> Contact us</span></a></li>
 				</ul>
